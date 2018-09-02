@@ -1,0 +1,73 @@
+body {
+	font-size: 16px;
+	color: #cc6900;
+	background-color: #ffe6cc;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/**------------ HEADER ------------**/
+#header-nav{
+	background-color: #cc6900;
+	border-radius: 0; 
+	border: 0;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+}
+.navbar-brand h1{
+	font-family: 'Oxygen', sans-serif;
+	color: #ffe6cc;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-header button.navbar-toogle, .navbar-header .icon-bar{
+	border: 1px solid #ffe6cc;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #ffe6cc;
+	font-weight: bold;
+	text-align: center;
+}
+#nav-list a:hover{
+	color: #cc6900;
+	background-color: #ffe6cc;
+}
+
+.page-header{
+	border: 0;
+	margin-top: 0;
+}
+.page-header h1{
+	font-weight: bold;
+	border: 0;
+	margin-top: 0;
+}
+
+/**------------ MAIN CONTENT ------------**/
+
+#box {
+	background-color: #ff8c1a;
+	color: #ffe6cc;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+#box h3{
+	font-weight: bold;
+	margin-top: 0;
+}
+#box  p{
+	text-align: justify;
+}
